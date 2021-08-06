@@ -155,6 +155,7 @@
           newState = Object.assign({}, state, {
             max_id: newMaxId,
             contents: newContents,
+            selected_id: newMaxId,
             mode: 'read',
           });
         } else if (action.type === 'DELETE') {
